@@ -2,7 +2,7 @@ import api, { setAccessToken } from "./index"
 import _ from "lodash"
 
 export const loginForm = (credentials, history) => {
-    return api.post("accounts/login/", credentials)
+    return api.post("/accounts/login/", credentials)
         .then(res => {
             const access_token = res.data.id
             setAccessToken(access_token)
@@ -17,7 +17,10 @@ export const loginForm = (credentials, history) => {
 export const logout = () => {
     return api.post(`/accounts/logout/`)
         .then(res => {
-            res.config.params = undefined
+            // api.interceptors.response.use(config => {
+            //     config.params = config.params || {}
+            //     config.params["access_token"] = ""
+            // });
             // setAccessToken()
             console.log(res)
             // window.location.reload(true);

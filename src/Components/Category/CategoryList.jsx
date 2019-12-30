@@ -17,7 +17,7 @@ export default class CategoryList extends Component {
     };
   }
 
-  getCategories = async() => {
+  getCategories = async() => {  
     const categoryList = await getCategories();
     this.setState({ categoryList });
   }

@@ -17,6 +17,17 @@ export const setAccessToken = (access_token) => {
             return config
         })
     }
+    // else {
+    //     const myInterceptor = axios.interceptors.request.use(function () {/*...*/ });
+    //     api.interceptors.request.eject(myInterceptor);
+    //     // console.log("ko co accecc token")
+    //     // api.interceptors.request.use(config => {
+    //     //     console.log("config co token", config)
+    //     //     config.params = config.params || {}
+    //     //     config.params["access_token"] = ""
+    //     //     return config
+    //     // })
+    // }
 }
 
 export * from "./categories"
