@@ -13,8 +13,15 @@ import { setAccessToken } from "./api"
 
 const access_token = localStorage.getItem("access_token")
 
+// if (token) {
+//     const decoded = jwtDecode(token)
+//     if (decoded.exp > new Date().getTime() / 1000) {
+//         setAuthToken(token);
+//     }
+// }
+
 if (access_token) {
-    setAccessToken(access_token)
+    setAccessToken()
 }
 
 class App extends React.Component {
@@ -35,6 +42,7 @@ class App extends React.Component {
     //         isShowCategory: !this.state.isShowCategory
     //     })
     // }
+
     //goi render lai, co the dat this.setState(truyen cai gi do ko su dung)
     updateApp = () => {
         this.forceUpdate();

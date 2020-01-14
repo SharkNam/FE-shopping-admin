@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import api from "./index"
+import axios from "axios"
 
 export const getProducts = () => {
     return api.get("/products")
@@ -21,7 +22,7 @@ export const createProduct = (data) => {
 
 export const deleteProductById = (id) => {
     return api.delete(`/products/${id}`)
-        .then(console.log)
+        .then(console.log())
         .catch(console.log)
 }
 

@@ -37,7 +37,7 @@ export default class Login extends Component {
     return (
       <div className="container text-left">
         <h1>LOGIN</h1>
-        {error.message && <h2 className="text-danger">{error.message}</h2>}
+        {/* {error.message && <h2 className="text-danger">{error.message}</h2>} */}
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <label htmlFor="email"> Email: </label>
