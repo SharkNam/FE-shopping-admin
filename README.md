@@ -31,6 +31,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Project REST API (backend)
+## Project REST API (backend)
 
 https://github.com/ironhight/BE-shopping-admin
+
+## Screenshots 
+![login](https://user-images.githubusercontent.com/56241790/74533966-613e8580-4f65-11ea-8d8b-edc29802f092.png)
+![category](https://user-images.githubusercontent.com/56241790/74533980-669bd000-4f65-11ea-9f84-98733238576d.png)
+![products](https://user-images.githubusercontent.com/56241790/74533987-6b608400-4f65-11ea-881d-73ad6ce4ec18.png)
