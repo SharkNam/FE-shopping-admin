@@ -3,7 +3,7 @@
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - Project is a interface for admin to manager(CRUD): Category, Product. Interactive with API from project : https://github.com/ironhight/FE-shopping-admin
 - You must download and run 2 project at the same time
-- Account and password for admin: `nguyenvana@gmail.com` / `123456`
+- Create account and password for admin
 
 ![login](https://user-images.githubusercontent.com/56241790/74533966-613e8580-4f65-11ea-8d8b-edc29802f092.png)
 
